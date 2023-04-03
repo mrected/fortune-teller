@@ -1,0 +1,33 @@
+body {
+    background: #061d4e;
+    overflow-y: hidden;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, p {
+    color: #fced9b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fortune-btn{
+    padding: 10px;
+    background-color: #7fbafd;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.fortune-btn:hover {
+    background-color: #62abff;
+}
+.fortune-btn:active {
+    background-color: #3c97ff;
+}
